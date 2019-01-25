@@ -34,7 +34,7 @@ export default class Product extends Component {
                                             in Cart
                                         </p>
                                     ) : (
-                                        <i className="fas fa-cart-plus"/>
+                                        <i className="fas fa-shopping-cart"/>
                                     )}
                                 </button>
                             </div>
@@ -107,7 +107,7 @@ const ProductWrapper = styled.div`
         background: var(--lightBlue);
         border: none;
         color: var(--mainWhite);
-        font-size: 1.4reml
+        font-size: 1.4rem;
         border-radius: 0.5rem 0 0 0;
         transform: translate(100%, 100%);
         transition: all 1s linear;
@@ -119,4 +119,5 @@ const ProductWrapper = styled.div`
         color: var(--mainBlue);
         cursor: pointer;
     }
+   
 `;

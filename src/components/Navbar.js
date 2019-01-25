@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
-import logo from '../logo.svg';
+import logo from '../logo.png';
 import styled from 'styled-components';
 import {ButtonContainer} from './Button';
 
@@ -14,14 +14,14 @@ export default class Navbar extends Component {
                 <ul className="navbar-nav align-items-center">
                     <li className="nav-item ml-5">
                     <Link to="/" className="nav-link">
-                        Products
+                        Albums
                     </Link>
                     </li>
                 </ul>
                 <Link to="/cart" className="ml-auto">
                     <ButtonContainer>
                         <span className="mr-2">
-                        <i className="fas fa-cart-plus" />
+                        <i className="fas fa-shopping-cart" />
                             </span>
                        My Cart
                     </ButtonContainer>
@@ -36,7 +36,7 @@ const NavWrapper = styled.nav`
     background: var(--mainBlue);
     .nav-link {
         color: var(--mainWhite) !important;
-        font-size: 1.3rem;
+        font-size: 1.8rem;
         text-transform: capitalize;
     }
     
