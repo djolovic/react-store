@@ -11,10 +11,10 @@ export default class Navbar extends Component {
                 <Link to='/'>
                     <img src={logo} alt="store" className="navbar-brand" />
                 </Link>
-                <ul className="navbar-nav align-items-center">
+                <ul className="navbar-nav align-items-center ">
                     <li className="nav-item ml-5">
                     <Link to="/" className="nav-link">
-                        Albums
+                        LP Store
                     </Link>
                     </li>
                 </ul>
@@ -38,6 +38,10 @@ const NavWrapper = styled.nav`
         color: var(--mainWhite) !important;
         font-size: 1.8rem;
         text-transform: capitalize;
+    }
+    .navbar-nav {
+    margin-left: auto;
+    
     }
     
 `;

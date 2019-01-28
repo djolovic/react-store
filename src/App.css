@@ -4,11 +4,13 @@
   --mainWhite: #f3f3f3;
   --mainDark: #232528;
   --mainYellow: #ffa400;
+  --lightGreen: #98fb98;
 }
 
 body{
   font-family: "Medula One", cursive !important;
-  background: var(--mainWhite) !important;
+  background-image: url('clouds.png') !important;
+  background-repeat: repeat !important;
   color: var(--mainDark) !important;
   font-size: 1.5rem !important;
 
@@ -33,7 +35,7 @@ body{
 .btn-black{
   background: transparent;
   text-transform: capitalize;
-  font-size: 0.8rem !important;
+  font-size: 1rem !important;
   color: var(--mainDark);
   border-radius: 0 !important;
   border: 0.1rem solid var(--mainDark) !important;
